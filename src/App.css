@@ -1,29 +1,84 @@
+* {
+    font-family:  'Sans Pro', sans-serif;
+}
+
+body {
+    background-color: hsl(210deg, 30%, 8%);;
+}
+
 header {
-    background-color: #25272E;
+    background-color: hsl(210deg, 30%, 8%);;
     color: #fff;
     padding: 20px;
     text-align: center;
+    font-family:  'Sans Pro', sans-serif;
+    border-bottom: solid white;
 }
 
 .search-bar {
     display: flex;
     text-align: center;
-    border: 1px solid;
     justify-content: center;
+    align-items: center;
+    background-color: hsl(210deg, 30%, 8%);
+    margin-top: 30px;
 }
 
-input {
+.search-input {
+    margin-right: -9px;
     width: 500px;
     height: 50px;
     padding: 0px;
-    margin: 20px;
+    margin: 0px;
     font-size: 20px;
-    border-radius: 10px;
+    
     border: 2px solid #333;
 }
 
+.submit {
+    height: 55px;
+    width: 100px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px;
+}
+
 img {
-    width: 300px;
+    width: 350px;
     height: 300px;
+    justify-content: center;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: hsl(210deg, 30%, 8%);;
+    margin-top: 100px;
+}
+
+.article {
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: hsl(210deg, 30%, 8%);
+    background-color: white;
+}
+
+.read-article {
+    background-color: #2196F3;
+    color: red;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
   
