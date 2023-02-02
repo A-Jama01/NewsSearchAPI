@@ -32,6 +32,7 @@ function App() {
   //Sets query state to word serached when submit or enter is pressed
   function handleSubmit(e) {
     e.preventDefault();       //prevents page from reloading after enter is pressed
+    if (searchInput === "") return;
     setQuery(searchInput);
     setSearchInput("");
   }
