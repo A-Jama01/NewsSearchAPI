@@ -46,7 +46,7 @@ function App() {
         <button type="submit" className="submit">Search</button>
       </form>
       <div className="news-list">
-        {newsList.map(article => (
+        {newsList?.map(article => (
           <Article
             key={article.url}
             title={article.title}
